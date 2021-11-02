@@ -114,7 +114,7 @@ serial:
 advanced:
   baudrate: 115200  #tahle položka je nutná protože používáme UART převodník viz. níže
   rtscts: false  #tahle funkce je vypnutá protože řízení toku vyžaduje jiný FW a nefunguje dobře na RPi
-  pan_id: 6752 #Pokud používáte pan_id musíte nastavit hodnotu i jedna vyšší než máte nyní. Takže pokud máte pan_id: 6752 tak dáte pan_id: 6753
+  pan_id: 6752 #Pokud používáte pan_id musíte nastavit hodnotu o jedna vyšší než máte nyní. Takže pokud máte pan_id: 6752 tak dáte pan_id: 6753
 
 experimental:
   transmit_power: 20  #toto funguje jen pro CC2652P kde je možné výkon řídit. 20 je maximum, dostupné hodnoty jsou -20, -18, -15, -12, -10, -9, -6, -5, -3, 0, 1..5, 14..20
